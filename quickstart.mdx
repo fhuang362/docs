@@ -1,80 +1,90 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Start modeling with Apers Excel Spreadsheet AI in minutes"
 ---
 
-## Get started in three steps
+## Get started in five steps
 
-Get your documentation site running locally and make your first customization.
+Create your first spreadsheet model and turn it into a Deal workspace.
 
-### Step 1: Set up your local environment
+### Step 1: Create a Quick Chat
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
-
-### Step 2: Deploy your changes
-
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
+<Accordion title="Start a new Quick Chat" icon="message">
+  From your Apers dashboard, click **New Chat** to create a Quick Chat. This is your starting point for building or uploading spreadsheet models.
 </Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+### Step 2: Interact with Excel Models
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+<AccordionGroup>
+  <Accordion title="Create a new spreadsheet" icon="wand-magic-sparkles">
+    Ask Apers to build one for you. For example:
+
+    `"Build me a sample pro forma in spreadsheet"`
+
+    Apers will generate a spreadsheet model based on your request.
+  </Accordion>
+  <Accordion title="Upload an existing spreadsheet" icon="upload">
+    Drag and drop your spreadsheet file into the **Data Room** on the right side of the chat.
+
+    <Tip>
+      Apers supports Excel files (.xlsx and .xlsm) and CSV files.
+    </Tip>
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+### Step 3: Document Ingestion
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
+<Accordion title="Wait for Ready status" icon="circle-check">
+  Apers understands your document as soon as it's uploaded. However, for best results—especially with complicated tasks—wait for the notification to turn **green** and show **"Ready"**.
+
+  <Tip>
+    Full ingestion allows Apers to cross-reference all your files accurately when tasks are complex.
+  </Tip>
+</Accordion>
+
+### Step 4: Build or Update Your Model
+
+<Accordion title="Interact with your spreadsheet" icon="table">
+  Once your document is ready, you can interact with Apers to:
+
+  - Build new models
+  - Update existing models
+  - Perform real-time modeling with Dynamic Formulas
+</Accordion>
+
+### Step 5: Convert to a Deal
+
+<Accordion title="Turn your chat into a Deal workspace" icon="folder-open">
+  When you're ready to commit more to this work:
+
+  1. Click the **"Convert to Deal"** button at the top of the page
+  2. Your Quick Chat becomes a Deal workspace
+  3. Create multiple sub-chats within the Deal to perform more complex tasks
+
+  <Tip>
+    A Deal workspace keeps all your deal-relevant documents organized in one place.
+  </Tip>
 </Accordion>
 
 ## Next steps
 
-Now that you have your docs running, explore these key features:
+Now that you've built your first model, explore more Apers capabilities:
 
 <CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
+  <Card title="Playbook" icon="book" href="/capabilities/playbook">
+    Codify your investment criteria and let Apers apply them automatically.
+  </Card>
+  <Card title="Workflows" icon="arrows-spin" href="/capabilities/workflows">
+    Automate repetitive tasks with custom or template workflows.
+  </Card>
+  <Card title="Library" icon="folder-tree" href="/capabilities/library">
+    Store templates and learnings for reuse on future deals.
+  </Card>
+  <Card title="Document Understanding" icon="file-lines" href="/capabilities/document-understanding">
+    Learn how Apers handles PDFs, CSVs, and scanned documents.
+  </Card>
 </CardGroup>
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  **Need help?** Contact our support team or explore the full documentation.
 </Note>
