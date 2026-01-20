@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#F15903",
+    "light": "#F7A21B",
+    "dark": "#658F98"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -44,7 +44,7 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Capabilities",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
@@ -98,6 +98,12 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Tab 3"
+      },
+      {
+        "tab": "Tab 4"
       }
     ]
   },
