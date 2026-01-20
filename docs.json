@@ -80,7 +80,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Deals",
         "groups": [
           {
             "group": "API documentation",
@@ -100,10 +100,13 @@
         ]
       },
       {
-        "tab": "Tab 3"
+        "tab": "Playbook"
       },
       {
-        "tab": "Tab 4"
+        "tab": "Workflows"
+      },
+      {
+        "tab": "Library"
       }
     ]
   },
