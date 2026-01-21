@@ -39,14 +39,15 @@
             "group": "Getting started",
             "pages": [
               "quickstart",
-              "index",
-              "development"
+              "index"
             ]
           },
           {
             "group": "Capabilities",
             "pages": [
               "essentials/settings",
+              "development",
+              "essentials/settings-copied-1",
               "essentials/navigation"
             ]
           },
@@ -80,7 +81,7 @@
         ]
       },
       {
-        "tab": "Excel Spreadsheet AI"
+        "tab": "AI Excel Modeling"
       },
       {
         "tab": "Deals",
