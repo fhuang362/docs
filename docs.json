@@ -49,6 +49,7 @@
               "development",
               "development-copied-1",
               "development-copied-2",
+              "development-copied-3",
               "essentials/settings-copied-1",
               "essentials/navigation"
             ]
@@ -83,7 +84,15 @@
         ]
       },
       {
-        "tab": "AI Excel Modeling"
+        "tab": "AI Excel Modeling",
+        "pages": [
+          "ai-excel-modeling/untitled-page",
+          "ai-excel-modeling/untitled-page-1",
+          "ai-excel-modeling/untitled-page-2",
+          "ai-excel-modeling/untitled-page-3",
+          "ai-excel-modeling/untitled-page-4",
+          "ai-excel-modeling/untitled-page-5"
+        ]
       },
       {
         "tab": "Deals",
