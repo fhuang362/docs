@@ -1,0 +1,60 @@
+---
+title: "Sub-Chats"
+description: "Learn how sub-chats work within a deal"
+icon: "messages"
+---
+
+A deal can contain many sub-chats. Each sub-chat is a separate conversation, but they all share the same Data Room.
+
+## How Sub-Chats Work
+
+- Each sub-chat is its own conversation with Apers
+- All sub-chats can access files in the deal's Data Room
+- All sub-chats can use the deal's attached Playbooks
+
+## Chat Isolation
+
+<Warning>
+  Chats are siloed. Chat A cannot directly reference Chat B.
+</Warning>
+
+This is intentional. It prevents cross-conversation contamination and keeps your analysis clean.
+
+**Why this matters:**
+- Each chat stays focused on its task
+- No confusion from mixing different analyses
+- Cleaner context for Apers to work with
+
+## Sharing Information Between Chats
+
+Even though chats can't directly talk to each other, you can still pass information between them using the Data Room.
+
+<Steps>
+  <Step title="Export from Chat A">
+    In your first chat, ask Apers to export results to the Data Room. For example: "Export this market research summary to the Data Room."
+  </Step>
+  <Step title="Start Chat B">
+    Create a new sub-chat.
+  </Step>
+  <Step title="Reference the export">
+    In the new chat, tell Apers to use the exported file. For example: "Use the market research file to build a proforma."
+  </Step>
+</Steps>
+
+## Example Workflow
+
+<Steps>
+  <Step title="Research in Subchat 1">
+    Conduct market research to understand market assumptions. Export your findings to the Data Room.
+  </Step>
+  <Step title="Model in Subchat 2">
+    Start a new subchat. Build a proforma using the exported market research.
+  </Step>
+  <Step title="Review in Subchat 3">
+    Start another subchat. Run an error check on the proforma you created.
+  </Step>
+</Steps>
+
+<Info>
+  This approach lets you work beyond typical context window limitations—essential for complex real estate deals.
+</Info>

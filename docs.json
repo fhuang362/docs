@@ -86,32 +86,24 @@
       {
         "tab": "AI Excel Modeling",
         "pages": [
-          "ai-excel-modeling/untitled-page",
-          "ai-excel-modeling/untitled-page-1",
-          "ai-excel-modeling/untitled-page-2",
-          "ai-excel-modeling/untitled-page-3",
-          "ai-excel-modeling/untitled-page-4",
-          "ai-excel-modeling/untitled-page-5"
+          "ai-excel-modeling/creating-models",
+          "ai-excel-modeling/overview",
+          "ai-excel-modeling/working-with-existing-models",
+          "ai-excel-modeling/thinking-process",
+          "ai-excel-modeling/editing-and-version-control",
+          "ai-excel-modeling/exporting-and-saving"
         ]
       },
       {
-        "tab": "Deals",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "tab": "Deal Management",
+        "pages": [
+          "deals/overview",
+          "deals/chats",
+          "deals/pipeline",
+          "deals/manage-deals",
+          "deals/inside-a-deal",
+          "deals/deal-tabs",
+          "deals/attaching-playbook"
         ]
       },
       {
