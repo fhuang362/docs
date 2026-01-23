@@ -45,11 +45,11 @@
           {
             "group": "Capabilities",
             "pages": [
-              "essentials/settings",
-              "development",
-              "development-copied-1",
-              "development-copied-2",
-              "development-copied-3"
+              "ingestion",
+              "analyze-deals",
+              "build-strategies",
+              "workflow-automation",
+              "saving-knowledge"
             ]
           }
         ]
