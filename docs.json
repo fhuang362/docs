@@ -98,7 +98,13 @@
         ]
       },
       {
-        "tab": "Library"
+        "tab": "Library",
+        "pages": [
+          "library/01-overview",
+          "library/02-adding-files",
+          "library/03-using-files",
+          "library/04-best-practices"
+        ]
       }
     ]
   },
