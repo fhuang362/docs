@@ -1,0 +1,47 @@
+---
+title: "Precision Mode: Criteria"
+description: "Define your must-pass rules and return targets"
+icon: "filter"
+---
+
+The Criteria section lets you set the rules that deals must meet.
+
+## Must-Pass Criteria
+
+These are hard requirements. If a deal doesn't meet them, it fails the playbook evaluation.
+
+**Examples:**
+- Deal size must be greater than $10M
+- Property must be built after 1980
+- Occupancy must be above 85%
+
+<Info>
+  Must-pass criteria are pass/fail. A deal either meets them or it doesn't.
+</Info>
+
+## Return Targets
+
+Set the financial thresholds for your strategy.
+
+**Examples:**
+
+| Metric | Target |
+| ------ | ------ |
+| Levered IRR | > 15% |
+| IRR Floor | > 13% |
+| Cash-on-Cash | > 8% |
+| Equity Multiple | > 1.8x |
+
+You can set both minimum thresholds (floors) and target ranges.
+
+## How Criteria Work Together
+
+When you deploy a playbook:
+
+1. Apers checks all **must-pass criteria** first
+2. If the deal passes, Apers evaluates it against your **return targets**
+3. You get a clear view of how the deal scores against your strategy
+
+<Info>
+  Be specific with your criteria. The more precise you are, the better Apers can evaluate deals for you.
+</Info>

@@ -1,0 +1,79 @@
+---
+title: "Building a Workflow"
+description: "Learn how to create and configure your own workflows"
+icon: "hammer"
+---
+
+Create custom workflows to automate your repetitive tasks.
+
+## Creating a New Workflow
+
+<Steps>
+  <Step title="Open Workflows">
+    Click **Workflows** in the left side panel.
+  </Step>
+  <Step title="Click Create New Workflow">
+    A popup window will appear.
+  </Step>
+  <Step title="Fill in the details">
+    Enter the workflow attributes (see below).
+  </Step>
+</Steps>
+
+## Workflow Attributes
+
+<ResponseField name="Name" type="required">
+  Give your workflow a clear name so you can find it later.
+</ResponseField>
+
+<ResponseField name="Description" type="optional">
+  Add details about what this workflow does.
+</ResponseField>
+
+<ResponseField name="Workflow Steps" type="required">
+  The instructions Apers will follow. You can add multiple steps that run one after another.
+</ResponseField>
+
+## Adding Workflow Steps
+
+Each step is an instruction for Apers to execute. Steps run in order, from first to last.
+
+<Steps>
+  <Step title="Click the text box">
+    Click on a step's text box to edit it.
+  </Step>
+  <Step title="Enter your instruction">
+    Type what you want Apers to do in this step. For example: "Summarize the rent roll" or "Calculate the cap rate."
+  </Step>
+  <Step title="Add more steps">
+    Click to add additional steps as needed. Each step runs after the previous one finishes.
+  </Step>
+</Steps>
+
+## Using Input Requests
+
+Sometimes you need information from the user before running a workflow. Input requests let you ask for this.
+
+**Example:** A market research workflow might need to know which market to research.
+
+When you add an input request:
+
+1. Apers will ask the user for that information when the workflow runs
+2. The user's answer is saved as a variable
+3. You can use that variable in later steps
+
+<Info>
+  Once you create a variable, you can reuse it in any following step—no need to ask for the same information twice.
+</Info>
+
+## Using Variables in Later Steps
+
+After creating an input request, you can reference that variable in any step that comes after.
+
+**Example:**
+
+- Step 1: Input request for "market_name"
+- Step 2: "Research population growth in {{market_name}}"
+- Step 3: "Find comparable sales in {{market_name}}"
+
+The variable carries through the entire workflow.

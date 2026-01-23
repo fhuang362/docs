@@ -49,36 +49,7 @@
               "development",
               "development-copied-1",
               "development-copied-2",
-              "development-copied-3",
-              "essentials/settings-copied-1",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Deal",
-            "expanded": true,
-            "pages": [
-              "essentials-copied-1/markdown",
-              "essentials-copied-1/code",
-              "essentials-copied-1/images",
-              "essentials-copied-1/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "development-copied-3"
             ]
           }
         ]
@@ -86,8 +57,8 @@
       {
         "tab": "AI Excel Modeling",
         "pages": [
-          "ai-excel-modeling/creating-models",
           "ai-excel-modeling/overview",
+          "ai-excel-modeling/creating-models",
           "ai-excel-modeling/working-with-existing-models",
           "ai-excel-modeling/thinking-process",
           "ai-excel-modeling/editing-and-version-control",
@@ -107,10 +78,24 @@
         ]
       },
       {
-        "tab": "Playbook"
+        "tab": "Playbook",
+        "pages": [
+          "playbook/01-overview",
+          "playbook/02-creating-a-playbook",
+          "playbook/03-express-mode",
+          "playbook/03-precision-mode-investment-thesis",
+          "playbook/04-precision-mode-criteria",
+          "playbook/05-precision-mode-review-save",
+          "playbook/06-using-playbooks"
+        ]
       },
       {
-        "tab": "Workflows"
+        "tab": "Workflows",
+        "pages": [
+          "workflows/01-overview",
+          "workflows/02-building-a-workflow",
+          "workflows/03-running-a-workflow"
+        ]
       },
       {
         "tab": "Library"
