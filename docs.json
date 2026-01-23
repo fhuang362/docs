@@ -21,13 +21,13 @@
           "href": "https://ai.apers.app/"
         },
         {
-          "anchor": "Documentation",
+          "anchor": "Visit Our Side",
           "icon": "book-open-cover",
           "color": {
             "light": "#000000",
             "dark": "#000000"
           },
-          "href": "https://docs.apers.app/"
+          "href": "https://apers.app/"
         }
       ]
     },
