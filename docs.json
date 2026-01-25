@@ -145,5 +145,8 @@
   "interaction": {
     "drilldown": true
   },
-  "description": "How to use Apers system"
+  "description": "How to use Apers system",
+  "seo": {
+    "indexing": "navigable"
+  }
 }
