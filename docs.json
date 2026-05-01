@@ -49,7 +49,9 @@
               "analyze-deals",
               "build-strategies",
               "workflow-automation",
-              "saving-knowledge"
+              "saving-knowledge",
+              "templates",
+              "documents/overview"
             ]
           }
         ]
@@ -66,6 +68,14 @@
         ]
       },
       {
+        "tab": "Presentations",
+        "pages": [
+          "presentations/overview",
+          "presentations/creating-presentations",
+          "presentations/editing-presentations"
+        ]
+      },
+      {
         "tab": "Deal Management",
         "pages": [
           "deals/overview",
@@ -74,6 +84,7 @@
           "deals/manage-deals",
           "deals/inside-a-deal",
           "deals/deal-tabs",
+          "deals/market-data",
           "deals/attaching-playbook"
         ]
       },
@@ -104,6 +115,23 @@
           "library/02-adding-files",
           "library/03-using-files",
           "library/04-best-practices"
+        ]
+      },
+      {
+        "tab": "Marketplace",
+        "pages": [
+          "marketplace/overview",
+          "marketplace/purchasing",
+          "marketplace/using-purchases"
+        ]
+      },
+      {
+        "tab": "Credits & Plans",
+        "pages": [
+          "credits/overview",
+          "credits/plans",
+          "credits/purchasing-credits",
+          "credits/referrals"
         ]
       }
     ]
