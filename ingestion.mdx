@@ -27,7 +27,7 @@ Apers can process a wide range of file types common in real estate:
 | Category | Formats |
 | --- | --- |
 | **Documents** | PDF, DOCX, TXT, RTF, Markdown |
-| **Spreadsheets** | Excel (.xlsx, .xlsm), CSV |
+| **Spreadsheets** | Excel (.xlsx), CSV |
 | **Presentations** | PowerPoint (.pptx) |
 | **Images** | JPG, PNG, GIF, WebP, HEIC, TIFF |
 | **Data Files** | JSON, XML, YAML, HTML |
@@ -36,6 +36,10 @@ Apers can process a wide range of file types common in real estate:
 <Tip>
 Scanned PDFs are fully supported. Apers uses OCR to extract text from scanned documents automatically.
 </Tip>
+
+<Note>
+Each file can be up to 30 MB, and images up to 5 MB each. Legacy and macro-enabled Office files such as `.xls`, `.xlsm`, `.doc`, and `.ppt` are converted to their modern equivalent (`.xlsx`, `.docx`, `.pptx`) on upload; macros and VBA are not preserved.
+</Note>
 
 ## File Processing Statuses
 
