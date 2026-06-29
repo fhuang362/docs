@@ -47,6 +47,7 @@
             "pages": [
               "ingestion",
               "analyze-deals",
+              "email-to-apers",
               "build-strategies",
               "workflow-automation",
               "saving-knowledge",
